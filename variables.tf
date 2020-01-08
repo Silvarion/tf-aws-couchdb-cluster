@@ -2,8 +2,14 @@ variable "cidr_blocks" {
     type = "list"
 }
 
+variable "data_ebs_size" {
+}
 
 variable "env" {
+    type = "string"
+}
+
+variable "key_name" {
     type = "string"
 }
 
